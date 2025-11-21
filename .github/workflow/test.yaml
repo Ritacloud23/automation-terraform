@@ -1,0 +1,12 @@
+name: Test Runner Connection
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: terraform-runner
+
+    steps:
+      - name: Print runner working
+        run: echo "Runner is working successfully!"
