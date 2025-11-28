@@ -1,1 +1,17 @@
 .env
+# Terraform local files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# Provider binaries
+.terraform/providers/
+
+# Modules
+.terraform/modules/
+
+# Local overrides
+*.exe
+*.zip
+*.tmp
